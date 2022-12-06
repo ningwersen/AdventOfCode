@@ -27,3 +27,4 @@ echo    print(solve_part1(filename))>> %template_file%
 echo    print(solve_part2(filename))>> %template_file%
 
 copy %template_file% %destination_file% /-Y
+del %template_file%
