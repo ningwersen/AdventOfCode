@@ -17,6 +17,6 @@ def solve_part2(input: str) -> int:
     return sum(top_3)
 
 if __name__ == '__main__':
-    filename = 'Day1\\puzzle1_input.txt'
+    filename = 'InputFiles\\puzzle1_input.txt'
     print(solve_part1(filename))
     print(solve_part2(filename))

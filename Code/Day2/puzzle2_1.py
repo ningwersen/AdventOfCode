@@ -36,7 +36,7 @@ def play_rps(p1: str, p2: str):
     return points
 
 if __name__ == '__main__':
-    filename = 'Day2\\puzzle2_input.txt'
+    filename = 'InputFiles\\puzzle2_input.txt'
 
     games = read_input(filename)
     total_score = 0

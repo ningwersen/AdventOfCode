@@ -38,6 +38,6 @@ def solve_part2(input: str) -> int:
 
 
 if __name__ == '__main__':
-    filename = 'Day3\\puzzle3_input.txt'
+    filename = 'InputFiles\\puzzle3_input.txt'
     print(solve_part1(filename))
     print(solve_part2(filename))

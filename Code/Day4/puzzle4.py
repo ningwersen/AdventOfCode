@@ -39,6 +39,6 @@ def solve_part2(input: str) -> int:
     return any_overlap
 
 if __name__ == '__main__':
-    filename = 'Day4\\puzzle4_input.txt'
+    filename = 'InputFiles\\puzzle4_input.txt'
     print(solve_part1(filename))
     print(solve_part2(filename))
