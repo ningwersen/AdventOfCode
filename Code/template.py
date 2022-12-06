@@ -1,16 +1,16 @@
 def read_input(file: str):
-    with open(file) as f:
-        input = f.read().splitlines()
-    
-    return input
+   with open(file) as f:
+       input = f.read().splitlines()
+
+   return input
 
 def solve_part1(input: str) -> int:
-    pass
+   pass
 
 def solve_part2(input: str) -> int:
-    pass
+   pass
 
 if __name__ == '__main__':
-    filename = 'Dayx\\puzzlex_test.txt'
-    print(solve_part1(filename))
-    print(solve_part2(filename))
+   filename = 'Day7\\puzzle7_test.txt'
+   print(solve_part1(filename))
+   print(solve_part2(filename))
