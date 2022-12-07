@@ -24,8 +24,6 @@ def create_file_structure(commands: list[str]) -> dict:
             
             current_dir = dir
          else:
-            if new_dir not in current_dir:
-               current_dir[new_dir] = {}
             parent_folders.append(new_dir)
             current_dir = current_dir[new_dir]
 
