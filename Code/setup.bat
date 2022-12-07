@@ -11,7 +11,7 @@ if not exist %destination_folder% mkdir %destination_folder% & echo Directory cr
 
 echo def read_input(file: str):> %template_file%
 echo    with open(file) as f:>> %template_file%
-echo        input = f.read().splitlines()>> %template_file%
+echo       input = f.read().splitlines()>> %template_file%
 echo:>> %template_file%
 echo    return input>> %template_file%
 echo:>> %template_file%
@@ -22,7 +22,7 @@ echo def solve_part2(input: str) -^> int:>> %template_file%
 echo    pass>> %template_file%
 echo:>> %template_file%
 echo if __name__ == '__main__':>> %template_file%
-echo    filename = 'Day%day%\\puzzle%day%_test.txt'>> %template_file%
+echo    filename = 'InputFiles\\puzzle%day%_test.txt'>> %template_file%
 echo    print(solve_part1(filename))>> %template_file%
 echo    print(solve_part2(filename))>> %template_file%
 
