@@ -1,2 +1,2 @@
-# Advent Of Code 2022
+# Advent Of Code
 Whatever gets the job done
